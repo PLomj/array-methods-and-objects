@@ -20,7 +20,7 @@ const character = {
   name: "Shadow Knight",
   level: 4,
   health: 100,
-  weapon: "Dark Sword"
+  weapon: "Dark Sword",
 };
 
 // შენი კოდი აქ...
@@ -53,7 +53,7 @@ const character = {
 დაწერეთ ფუნქცია `describePlayer(player)`, რომელიც დააბრუნებს ტექსტს შემდეგი ფორმატით:
 
 ```js
-"Player Neo is level 12 and uses Plasma Gun."
+"Player Neo is level 12 and uses Plasma Gun.";
 ```
 
 გამოიყენეთ destructuring.
@@ -65,7 +65,7 @@ const player = {
   username: "Neo",
   level: 12,
   weapon: "Plasma Gun",
-  rank: "Diamond"
+  rank: "Diamond",
 };
 
 function describePlayer(player) {
@@ -78,7 +78,7 @@ console.log(describePlayer(player));
 ## მოსალოდნელი შედეგი
 
 ```js
-"Player Neo is level 12 and uses Plasma Gun."
+"Player Neo is level 12 and uses Plasma Gun.";
 ```
 
 ---
@@ -95,9 +95,9 @@ console.log(describePlayer(player));
 
 თითოეულ item-ს აქვს:
 
-* `name`
-* `price`
-* `quantity`
+- `name`
+- `price`
+- `quantity`
 
 დაწერეთ კოდი, რომელიც დაითვლის ინვენტარის სრულ ღირებულებას.
 
@@ -110,7 +110,7 @@ const inventory = [
   { name: "Health Potion", price: 10, quantity: 5 },
   { name: "Mana Potion", price: 15, quantity: 3 },
   { name: "Iron Sword", price: 100, quantity: 1 },
-  { name: "Shield", price: 80, quantity: 1 }
+  { name: "Shield", price: 80, quantity: 1 },
 ];
 
 // შენი კოდი აქ...
@@ -119,7 +119,7 @@ const inventory = [
 ## მოსალოდნელი შედეგი
 
 ```js
-275
+275;
 ```
 
 ---
@@ -148,7 +148,7 @@ const items = [
   { name: "Dragon Blade", rarity: "legendary" },
   { name: "Silver Bow", rarity: "rare" },
   { name: "Old Boots", rarity: "common" },
-  { name: "Phoenix Ring", rarity: "legendary" }
+  { name: "Phoenix Ring", rarity: "legendary" },
 ];
 
 // შენი კოდი აქ...
@@ -157,7 +157,7 @@ const items = [
 ## მოსალოდნელი შედეგი
 
 ```js
-["Dragon Blade", "Silver Bow", "Phoenix Ring"]
+["Dragon Blade", "Silver Bow", "Phoenix Ring"];
 ```
 
 ---
@@ -189,7 +189,7 @@ const movies = [
   { title: "Interstellar", rating: 8.6, genres: ["Sci-Fi", "Drama"] },
   { title: "The Room", rating: 3.7, genres: ["Drama"] },
   { title: "Blade Runner 2049", rating: 8.0, genres: ["Sci-Fi", "Mystery"] },
-  { title: "Fast X", rating: 5.8, genres: ["Action"] }
+  { title: "Fast X", rating: 5.8, genres: ["Action"] },
 ];
 
 // შენი კოდი აქ...
@@ -198,7 +198,7 @@ const movies = [
 ## მოსალოდნელი შედეგი
 
 ```js
-["Inception", "Interstellar", "Blade Runner 2049"]
+["Inception", "Interstellar", "Blade Runner 2049"];
 ```
 
 ---
@@ -216,7 +216,7 @@ const movies = [
 დაწერეთ კოდი, რომელიც დააბრუნებს ახალ მასივს, სადაც ყველა კერძს დაემატება ახალი property:
 
 ```js
-discountedPrice
+discountedPrice;
 ```
 
 ფასდაკლება არის 20%.
@@ -230,7 +230,7 @@ const menu = [
   { name: "Burger", price: 20, category: "Fast Food" },
   { name: "Caesar Salad", price: 18, category: "Salad" },
   { name: "Pizza", price: 30, category: "Fast Food" },
-  { name: "Soup", price: 12, category: "Starter" }
+  { name: "Soup", price: 12, category: "Starter" },
 ];
 
 // შენი კოდი აქ...
@@ -243,8 +243,8 @@ const menu = [
   { name: "Burger", price: 20, category: "Fast Food", discountedPrice: 16 },
   { name: "Caesar Salad", price: 18, category: "Salad", discountedPrice: 14.4 },
   { name: "Pizza", price: 30, category: "Fast Food", discountedPrice: 24 },
-  { name: "Soup", price: 12, category: "Starter", discountedPrice: 9.6 }
-]
+  { name: "Soup", price: 12, category: "Starter", discountedPrice: 9.6 },
+];
 ```
 
 ---
@@ -269,7 +269,7 @@ const menu = [
   { name: "Pizza", price: 30, category: "Fast Food" },
   { name: "Caesar Salad", price: 18, category: "Salad" },
   { name: "Tomato Soup", price: 12, category: "Starter" },
-  { name: "Greek Salad", price: 16, category: "Salad" }
+  { name: "Greek Salad", price: 16, category: "Salad" },
 ];
 
 // შენი კოდი აქ...
@@ -312,7 +312,7 @@ const menu = [
 ბოლოს დააბრუნეთ ტექსტები ასეთი ფორმატით:
 
 ```js
-"Post: JavaScript Tips | Likes: 350"
+"Post: JavaScript Tips | Likes: 350";
 ```
 
 ## საწყისი კოდი
@@ -323,7 +323,7 @@ const posts = [
   { title: "JavaScript Tips", likes: 350, isPublished: true },
   { title: "Private Draft", likes: 999, isPublished: false },
   { title: "CSS Tricks", likes: 180, isPublished: true },
-  { title: "Random Thought", likes: 75, isPublished: true }
+  { title: "Random Thought", likes: 75, isPublished: true },
 ];
 
 // შენი კოდი აქ...
@@ -332,10 +332,7 @@ const posts = [
 ## მოსალოდნელი შედეგი
 
 ```js
-[
-  "Post: JavaScript Tips | Likes: 350",
-  "Post: CSS Tricks | Likes: 180"
-]
+["Post: JavaScript Tips | Likes: 350", "Post: CSS Tricks | Likes: 180"];
 ```
 
 ---
@@ -353,16 +350,16 @@ const posts = [
 დაწერეთ სამი ცვლადი:
 
 ```js
-totalIncome
-totalExpense
-balance
+totalIncome;
+totalExpense;
+balance;
 ```
 
 წესები:
 
-* `income` ტიპის ტრანზაქციები ზრდის ბალანსს.
-* `expense` ტიპის ტრანზაქციები ამცირებს ბალანსს.
-* გამოიყენეთ `filter` და `reduce`.
+- `income` ტიპის ტრანზაქციები ზრდის ბალანსს.
+- `expense` ტიპის ტრანზაქციები ამცირებს ბალანსს.
+- გამოიყენეთ `filter` და `reduce`.
 
 ## საწყისი კოდი
 
@@ -372,7 +369,7 @@ const transactions = [
   { id: 2, type: "expense", amount: 200, description: "Groceries" },
   { id: 3, type: "expense", amount: 100, description: "Transport" },
   { id: 4, type: "income", amount: 300, description: "Freelance" },
-  { id: 5, type: "expense", amount: 150, description: "Restaurant" }
+  { id: 5, type: "expense", amount: 150, description: "Restaurant" },
 ];
 
 // შენი კოდი აქ...
@@ -381,9 +378,9 @@ const transactions = [
 ## მოსალოდნელი შედეგი
 
 ```js
-totalIncome: 1500
-totalExpense: 450
-balance: 1050
+totalIncome: 1500;
+totalExpense: 450;
+balance: 1050;
 ```
 
 ---
@@ -417,26 +414,26 @@ const transactions = [
     id: 1,
     amount: 250,
     type: "expense",
-    meta: { location: "Georgia", device: "iPhone" }
+    meta: { location: "Georgia", device: "iPhone" },
   },
   {
     id: 2,
     amount: 2400,
     type: "expense",
-    meta: { location: "Georgia", device: "MacBook" }
+    meta: { location: "Georgia", device: "MacBook" },
   },
   {
     id: 3,
     amount: 80,
     type: "expense",
-    meta: { location: "Germany", device: "Android" }
+    meta: { location: "Germany", device: "Android" },
   },
   {
     id: 4,
     amount: 500,
     type: "income",
-    meta: { location: "Georgia", device: "Windows" }
-  }
+    meta: { location: "Georgia", device: "Windows" },
+  },
 ];
 
 // შენი კოდი აქ...
@@ -450,15 +447,15 @@ const transactions = [
     id: 2,
     amount: 2400,
     type: "expense",
-    meta: { location: "Georgia", device: "MacBook" }
+    meta: { location: "Georgia", device: "MacBook" },
   },
   {
     id: 3,
     amount: 80,
     type: "expense",
-    meta: { location: "Germany", device: "Android" }
-  }
-]
+    meta: { location: "Germany", device: "Android" },
+  },
+];
 ```
 
 ---
@@ -481,18 +478,43 @@ const transactions = [
 4. დააბრუნეთ ტექსტი შემდეგი ფორმატით:
 
 ```js
-"Fix navbar - high - 2026-06-05"
+"Fix navbar - high - 2026-06-05";
 ```
 
 ## საწყისი კოდი
 
 ```js
 const tasks = [
-  { title: "Fix navbar", priority: "high", completed: false, deadline: "2026-06-05" },
-  { title: "Update footer", priority: "low", completed: false, deadline: "2026-06-10" },
-  { title: "Refactor auth", priority: "high", completed: true, deadline: "2026-06-02" },
-  { title: "Create pricing page", priority: "medium", completed: false, deadline: "2026-06-03" },
-  { title: "Write tests", priority: "medium", completed: false, deadline: "2026-06-08" }
+  {
+    title: "Fix navbar",
+    priority: "high",
+    completed: false,
+    deadline: "2026-06-05",
+  },
+  {
+    title: "Update footer",
+    priority: "low",
+    completed: false,
+    deadline: "2026-06-10",
+  },
+  {
+    title: "Refactor auth",
+    priority: "high",
+    completed: true,
+    deadline: "2026-06-02",
+  },
+  {
+    title: "Create pricing page",
+    priority: "medium",
+    completed: false,
+    deadline: "2026-06-03",
+  },
+  {
+    title: "Write tests",
+    priority: "medium",
+    completed: false,
+    deadline: "2026-06-08",
+  },
 ];
 
 // შენი კოდი აქ...
@@ -504,8 +526,8 @@ const tasks = [
 [
   "Create pricing page - medium - 2026-06-03",
   "Fix navbar - high - 2026-06-05",
-  "Write tests - medium - 2026-06-08"
-]
+  "Write tests - medium - 2026-06-08",
+];
 ```
 
 ---
@@ -527,7 +549,7 @@ const tasks = [
 3. დააბრუნებს ტექსტებს ასეთი ფორმატით:
 
 ```js
-"React: 85%"
+"React: 85%";
 ```
 
 ## საწყისი კოდი
@@ -538,7 +560,7 @@ const skills = {
   CSS: 90,
   JavaScript: 78,
   React: 85,
-  Node: 45
+  Node: 45,
 };
 
 // შენი კოდი აქ...
@@ -547,14 +569,9 @@ const skills = {
 ## მოსალოდნელი შედეგი
 
 ```js
-["HTML", "CSS", "JavaScript", "React"]
-
-[
-  "HTML: 95%",
-  "CSS: 90%",
-  "JavaScript: 78%",
-  "React: 85%"
-]
+["HTML", "CSS", "JavaScript", "React"][
+  ("HTML: 95%", "CSS: 90%", "JavaScript: 78%", "React: 85%")
+];
 ```
 
 ---
@@ -589,9 +606,9 @@ const profile = {
     language: "en",
     notifications: {
       email: true,
-      sms: false
-    }
-  }
+      sms: false,
+    },
+  },
 };
 
 // შენი კოდი აქ...
@@ -644,23 +661,23 @@ const courses = [
     title: "HTML Basics",
     lessons: [
       { title: "Tags", completed: true },
-      { title: "Forms", completed: true }
-    ]
+      { title: "Forms", completed: true },
+    ],
   },
   {
     title: "JavaScript Basics",
     lessons: [
       { title: "Variables", completed: true },
-      { title: "Functions", completed: false }
-    ]
+      { title: "Functions", completed: false },
+    ],
   },
   {
     title: "React Intro",
     lessons: [
       { title: "Components", completed: false },
-      { title: "Props", completed: false }
-    ]
-  }
+      { title: "Props", completed: false },
+    ],
+  },
 ];
 
 // შენი კოდი აქ...
@@ -695,7 +712,7 @@ Courses in progress:
 დააბრუნეთ ტექსტები ასეთი ფორმატით:
 
 ```js
-"Bohemian Rhapsody - 354 sec"
+"Bohemian Rhapsody - 354 sec";
 ```
 
 შემდეგ დაითვალეთ rock სიმღერების საერთო ხანგრძლივობა წამებში.
@@ -708,7 +725,7 @@ const songs = [
   { title: "Billie Jean", genre: "pop", duration: 294 },
   { title: "Hotel California", genre: "rock", duration: 391 },
   { title: "Smells Like Teen Spirit", genre: "rock", duration: 301 },
-  { title: "Blinding Lights", genre: "pop", duration: 200 }
+  { title: "Blinding Lights", genre: "pop", duration: 200 },
 ];
 
 // შენი კოდი აქ...
@@ -720,10 +737,10 @@ const songs = [
 [
   "Hotel California - 391 sec",
   "Bohemian Rhapsody - 354 sec",
-  "Smells Like Teen Spirit - 301 sec"
-]
+  "Smells Like Teen Spirit - 301 sec",
+];
 
-1046
+1046;
 ```
 
 ---
@@ -740,10 +757,10 @@ const songs = [
 
 თითოეულ მომხმარებელს აქვს:
 
-* `name`
-* `spent`
-* `isActive`
-* `country`
+- `name`
+- `spent`
+- `isActive`
+- `country`
 
 დაწერეთ კოდი, რომელიც:
 
@@ -753,7 +770,7 @@ const songs = [
 4. დააბრუნებს ტექსტებს ასეთი ფორმატით:
 
 ```js
-"Ana from Georgia spent $1200"
+"Ana from Georgia spent $1200";
 ```
 
 ## საწყისი კოდი
@@ -764,7 +781,7 @@ const customers = [
   { name: "Ana", spent: 1200, isActive: true, country: "Georgia" },
   { name: "John", spent: 900, isActive: false, country: "USA" },
   { name: "Mariam", spent: 700, isActive: true, country: "Germany" },
-  { name: "Luka", spent: 1500, isActive: true, country: "Georgia" }
+  { name: "Luka", spent: 1500, isActive: true, country: "Georgia" },
 ];
 
 // შენი კოდი აქ...
@@ -776,8 +793,8 @@ const customers = [
 [
   "Luka from Georgia spent $1500",
   "Ana from Georgia spent $1200",
-  "Mariam from Germany spent $700"
-]
+  "Mariam from Germany spent $700",
+];
 ```
 
 ---
@@ -811,7 +828,7 @@ const customers = [
   { name: "Ana", spent: 1200, country: "Georgia" },
   { name: "John", spent: 900, country: "USA" },
   { name: "Mariam", spent: 700, country: "Germany" },
-  { name: "Luka", spent: 1500, country: "Georgia" }
+  { name: "Luka", spent: 1500, country: "Georgia" },
 ];
 
 // შენი კოდი აქ...
@@ -851,11 +868,11 @@ const customers = [
 დაწერეთ შემდეგი ფუნქციები:
 
 ```js
-getTopRatedMovies(movies)
-getMoviesByGenre(movies, genre)
-getAverageRating(movies)
-getMovieTitles(movies)
-getGenreReport(movies)
+getTopRatedMovies(movies);
+getMoviesByGenre(movies, genre);
+getAverageRating(movies);
+getMovieTitles(movies);
+getGenreReport(movies);
 ```
 
 ## მოთხოვნები
@@ -890,7 +907,7 @@ const movies = [
   { title: "Interstellar", rating: 8.6, genres: ["Sci-Fi", "Drama"] },
   { title: "The Dark Knight", rating: 9.0, genres: ["Action", "Drama"] },
   { title: "The Room", rating: 3.7, genres: ["Drama"] },
-  { title: "Shrek", rating: 7.9, genres: ["Animation", "Comedy"] }
+  { title: "Shrek", rating: 7.9, genres: ["Animation", "Comedy"] },
 ];
 
 function getTopRatedMovies(movies) {
@@ -963,22 +980,22 @@ console.log(getGenreReport(movies));
 
 თითოეულ შეკვეთას აქვს:
 
-* `id`
-* `customer`
-* `status`
-* `items`
+- `id`
+- `customer`
+- `status`
+- `items`
 
 თითოეულ item-ს აქვს:
 
-* `name`
-* `category`
-* `price`
-* `quantity`
+- `name`
+- `category`
+- `price`
+- `quantity`
 
 დაწერეთ ფუნქცია:
 
 ```js
-getCompletedOrderSummaries(orders)
+getCompletedOrderSummaries(orders);
 ```
 
 ფუნქციამ უნდა:
@@ -1007,16 +1024,14 @@ const orders = [
     status: "completed",
     items: [
       { name: "Mouse", category: "Tech", price: 80, quantity: 1 },
-      { name: "Keyboard", category: "Tech", price: 150, quantity: 1 }
-    ]
+      { name: "Keyboard", category: "Tech", price: 150, quantity: 1 },
+    ],
   },
   {
     id: 2,
     customer: "Ana",
     status: "pending",
-    items: [
-      { name: "Monitor", category: "Tech", price: 700, quantity: 1 }
-    ]
+    items: [{ name: "Monitor", category: "Tech", price: 700, quantity: 1 }],
   },
   {
     id: 3,
@@ -1024,17 +1039,15 @@ const orders = [
     status: "completed",
     items: [
       { name: "Notebook", category: "Office", price: 10, quantity: 5 },
-      { name: "Pen", category: "Office", price: 2, quantity: 20 }
-    ]
+      { name: "Pen", category: "Office", price: 2, quantity: 20 },
+    ],
   },
   {
     id: 4,
     customer: "Mariam",
     status: "completed",
-    items: [
-      { name: "Laptop", category: "Tech", price: 2500, quantity: 1 }
-    ]
-  }
+    items: [{ name: "Laptop", category: "Tech", price: 2500, quantity: 1 }],
+  },
 ];
 
 function getCompletedOrderSummaries(orders) {
@@ -1050,8 +1063,8 @@ console.log(getCompletedOrderSummaries(orders));
 [
   { orderId: 4, customer: "Mariam", total: 2500 },
   { orderId: 1, customer: "Nika", total: 230 },
-  { orderId: 3, customer: "Giorgi", total: 90 }
-]
+  { orderId: 3, customer: "Giorgi", total: 90 },
+];
 ```
 
 ---
@@ -1067,7 +1080,7 @@ console.log(getCompletedOrderSummaries(orders));
 იგივე `orders` მასივის გამოყენებით შექმენით ფუნქცია:
 
 ```js
-getCategoryRevenueReport(orders)
+getCategoryRevenueReport(orders);
 ```
 
 ფუნქციამ უნდა დააბრუნოს ობიექტი, სადაც key არის კატეგორია, ხოლო value არის ამ კატეგორიის სრული revenue.
